@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\bin\Debug\net8.0\IntroductionToVariables.exe
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\bin\Debug\net8.0\IntroductionToVariables.deps.json
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\bin\Debug\net8.0\IntroductionToVariables.runtimeconfig.json
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\bin\Debug\net8.0\IntroductionToVariables.dll
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\bin\Debug\net8.0\IntroductionToVariables.pdb
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.sourcelink.json
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.dll
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\refint\IntroductionToVariables.dll
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.pdb
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\IntroductionToVariables.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week1 Basic\IntroductionToVariables\obj\Debug\net8.0\ref\IntroductionToVariables.dll
