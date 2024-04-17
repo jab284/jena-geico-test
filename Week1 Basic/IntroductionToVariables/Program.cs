@@ -71,23 +71,28 @@ Console.WriteLine(0.1 + 0.2);     //  C# thinks in binary - does not add the 2 n
 
 // If I want to perform a calculation on a variable AND store that results back into the variable
 
-//int num3 = 10;
-//num3 * 3;   // wont compile - it is a waste
 
 int num3 = 10;
 //int result = num3 * 3;
-num3 = num3 * 3;   // take take num3 and multiply by 3 and reassign back into Int3 - 10 * 3 and puts 30 back into num3
+num3 = num3 * 3;   // take num3 (10) and multiply by 3 (30) and reassign back into num3 - 10 * 3 and puts 30 back into num3
 num3 = num3 * 3;    // compounded to previous new num3 (30 * 3 and puts 90 back in num3)
-
+// int result = num3 * 3;
 Console.WriteLine(num3);
+
+// OR
+Console.WriteLine(num3);        //Prints num3 (10)
+Console.WriteLine(num3 + 5);    //prints num3 (10) plus 5 - and puts 15 back into num3
+num3 = num3 + 5;
+Console.WriteLine(num3);        //prints new num3 (15)
 
 
 // Augmented Assignment Operator    come back to!!!
-//num3 += 5; // exactly same as num = num3 + 5;
-//num3 -= 10;
-//num3 *=
-//num3 %=2;
-//Console.WriteLine(num3);
+num3 += 5;      // exactly same as num = num3 + 5;
+num3 -= 10;     // exactly same as num = num3 - 10
+num3 *= 2;      // exactly same as num = num3 * 2;
+num3 /= 2;      // exactly same as num = num3 / 2;
+num3 %= 2;      // exactly same as num = num3 % 2;  remainder only
+Console.WriteLine(num3);
 
 //Increment / Decrement Operators
 num3++;     // Increment - Add exactly 1  -> num3 +=1    ->  num3 = num3 +1;
@@ -124,21 +129,17 @@ Console.WriteLine(isSunny);
 Console.WriteLine(5==5);  // Boolean expression -> expression that evaluates to true or false
 Console.WriteLine(numberOfDogs == 5);  // use of variable with expression
 Console.WriteLine(numberOfDogs != 5);  // variable expression with !
-Console.WriteLine(numberOfDogs > 5);
-Console.WriteLine(numberOfDogs < 7);
-Console.WriteLine(numberOfDogs <= 7);
-Console.WriteLine(numberOfDogs >= 7);
+Console.WriteLine(numberOfDogs > 5);    // variable expression with >
+Console.WriteLine(numberOfDogs < 7);    // variable expression with <
+Console.WriteLine(numberOfDogs <= 7);   // variable expression with <=
+Console.WriteLine(numberOfDogs >= 7);   // variable expression with >=
 
 
 //Get ahead Study tip - Logical Operators - Conditional Statements - Loops
 
 //Other Topics - Strings, Concatenations, Maybe Lists
 
-//Ryan's code
-// int numberOfBooks;
-//numberOfBooks = 10;
-//numberOfBooks = 11;    //re-assignment
-//Console.WriteLine(numberOfBooks);
+
 
 
 
