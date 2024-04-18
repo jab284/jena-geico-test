@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\bin\Debug\net8.0\IntroToStrings.exe
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\bin\Debug\net8.0\IntroToStrings.deps.json
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\bin\Debug\net8.0\IntroToStrings.runtimeconfig.json
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\bin\Debug\net8.0\IntroToStrings.dll
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\bin\Debug\net8.0\IntroToStrings.pdb
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.sourcelink.json
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.dll
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\refint\IntroToStrings.dll
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.pdb
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\IntroToStrings.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week1 Basic\IntroToStrings\obj\Debug\net8.0\ref\IntroToStrings.dll

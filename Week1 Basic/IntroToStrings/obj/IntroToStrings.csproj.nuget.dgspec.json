@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Revature\\jena-geico-test\\Week1 Basic\\StringAndArrays\\StringAndArrays.csproj": {}
+    "C:\\Revature\\jena-geico-test\\Week1 Basic\\IntroToStrings\\IntroToStrings.csproj": {}
   },
   "projects": {
-    "C:\\Revature\\jena-geico-test\\Week1 Basic\\StringAndArrays\\StringAndArrays.csproj": {
+    "C:\\Revature\\jena-geico-test\\Week1 Basic\\IntroToStrings\\IntroToStrings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Revature\\jena-geico-test\\Week1 Basic\\StringAndArrays\\StringAndArrays.csproj",
-        "projectName": "StringAndArrays",
-        "projectPath": "C:\\Revature\\jena-geico-test\\Week1 Basic\\StringAndArrays\\StringAndArrays.csproj",
+        "projectUniqueName": "C:\\Revature\\jena-geico-test\\Week1 Basic\\IntroToStrings\\IntroToStrings.csproj",
+        "projectName": "IntroToStrings",
+        "projectPath": "C:\\Revature\\jena-geico-test\\Week1 Basic\\IntroToStrings\\IntroToStrings.csproj",
         "packagesPath": "C:\\dev\\nuget\\packages",
-        "outputPath": "C:\\Revature\\jena-geico-test\\Week1 Basic\\StringAndArrays\\obj\\",
+        "outputPath": "C:\\Revature\\jena-geico-test\\Week1 Basic\\IntroToStrings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\U1C073\\AppData\\Roaming\\NuGet\\NuGet.Config"
