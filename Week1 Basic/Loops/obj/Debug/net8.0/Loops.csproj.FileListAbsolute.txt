@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week1 Basic\Loops\bin\Debug\net8.0\Loops.exe
+C:\Revature\jena-geico-test\Week1 Basic\Loops\bin\Debug\net8.0\Loops.deps.json
+C:\Revature\jena-geico-test\Week1 Basic\Loops\bin\Debug\net8.0\Loops.runtimeconfig.json
+C:\Revature\jena-geico-test\Week1 Basic\Loops\bin\Debug\net8.0\Loops.dll
+C:\Revature\jena-geico-test\Week1 Basic\Loops\bin\Debug\net8.0\Loops.pdb
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.sourcelink.json
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.dll
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\refint\Loops.dll
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.pdb
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\Loops.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week1 Basic\Loops\obj\Debug\net8.0\ref\Loops.dll
