@@ -4,13 +4,21 @@
 //JEN'S GUESSING GAME
 
 
+bool playAgain = true;
+
+while (playAgain)
+{
+
+
+//The entire game starts here
 
 Random random = new Random();
-int answer = random.Next(1, 100);
+int answer = random.Next(1, 100);   //should this be 101
 
 //int answer = 28;
 int guessCount = 0;  
 int guess = 0;
+string? input;
 
 
 Console.WriteLine("Let's play my Guessing Game");
@@ -26,8 +34,8 @@ Console.WriteLine("I'm ready.  Pick a number to see if you can guess what my num
 
 while (guess != answer)
 {
-    string input = Console.ReadLine();  
-
+    //string input = Console.ReadLine();  
+    input = Console.ReadLine();
     guess = int.Parse(input);  
 
 
@@ -59,10 +67,22 @@ while (guess != answer)
       
     guessCount++;
     Console.WriteLine("Way to go!.  You win.  How many guesses did it take you? Just " + guessCount + ".");
-    Console.WriteLine("Thanks for playing!  Hope you enjoyed the game.");
+    //Console.WriteLine("Thanks for playing!  Hope you enjoyed the game.");
 
+// the game ends here
+Console.WriteLine("Would you like to play again? (Y) or (N)");
+input = Console.ReadLine();
 
-
+if ("Y".Equals(input))
+{
+    playAgain = true;
+}
+else
+{
+    playAgain = false;
+}
+}
+Console.WriteLine("Thanks for playing!  Hope you enjoyed the game.");
 
 
 
