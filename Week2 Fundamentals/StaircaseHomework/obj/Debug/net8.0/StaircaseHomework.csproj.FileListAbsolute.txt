@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.sourcelink.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\bin\Debug\net8.0\StaircaseHomework.exe
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\bin\Debug\net8.0\StaircaseHomework.deps.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\bin\Debug\net8.0\StaircaseHomework.runtimeconfig.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\bin\Debug\net8.0\StaircaseHomework.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\bin\Debug\net8.0\StaircaseHomework.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\refint\StaircaseHomework.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\StaircaseHomework.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\StaircaseHomework\obj\Debug\net8.0\ref\StaircaseHomework.dll

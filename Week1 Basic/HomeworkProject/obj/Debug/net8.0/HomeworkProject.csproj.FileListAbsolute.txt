@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\bin\Debug\net8.0\HomeworkProject.exe
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\bin\Debug\net8.0\HomeworkProject.deps.json
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\bin\Debug\net8.0\HomeworkProject.runtimeconfig.json
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\bin\Debug\net8.0\HomeworkProject.dll
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\bin\Debug\net8.0\HomeworkProject.pdb
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.sourcelink.json
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.dll
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\refint\HomeworkProject.dll
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.pdb
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\HomeworkProject.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week1 Basic\HomeworkProject\obj\Debug\net8.0\ref\HomeworkProject.dll
