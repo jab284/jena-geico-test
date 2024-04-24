@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\bin\Debug\net8.0\ClassesBasics.exe
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\bin\Debug\net8.0\ClassesBasics.deps.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\bin\Debug\net8.0\ClassesBasics.runtimeconfig.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\bin\Debug\net8.0\ClassesBasics.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\bin\Debug\net8.0\ClassesBasics.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.sourcelink.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\refint\ClassesBasics.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ClassesBasics.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\ClassesBasics\obj\Debug\net8.0\ref\ClassesBasics.dll

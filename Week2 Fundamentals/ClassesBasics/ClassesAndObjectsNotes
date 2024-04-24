@@ -1,0 +1,49 @@
+Classes and Objects
+
+* Class - Blueprint for an Object that will define its states and behaviors
+        * states - values that we are holding onto -> fields / properties
+        * behaviors - anything we want the object to do - methods
+        * create a level of organization - place to put a bunch of things / and creates a type within application
+
+* Object - An instance of a Class
+        * Physical entity created from said blueprint
+            * one blueprint to make as many objects as we want
+            * change behaviors - per object basis
+            - color
+            - drive to add mileage
+        * Major changes to object - modify Class
+
+* Car Class for example
+    * state - fields - variables of our Class.aka Properties of a Class
+                * Color
+                * Model
+                * Make
+                * Mileage
+                * Year
+                * Value
+                * Number of Seats
+                * Number of Windows
+                * Number of Tires
+                * Works ?
+                * Owned ?
+    * Behavior - methods of a Class.  Like a function.  Anything we want our Objects to do.
+                * Drive
+                * Honk
+                * Back up
+                * Drift
+                * Crash
+                * Change the radio
+                * Roll down the windows
+                * Park
+    * Constructors - special method.  Builds an instance of a Class...aka an object
+
+        
+* Make a class ->  Name of file should match name of class (.cs)  ex Car.cs
+        * VS Code
+        * New File -(ensure you are in correct folder - ex ClassesAndObjects)
+        * Rename - make sure .cs at end of name  ex Cars.cs
+
+        * Do NOT use Main method in that file
+        * From command pallett - 
+            
+

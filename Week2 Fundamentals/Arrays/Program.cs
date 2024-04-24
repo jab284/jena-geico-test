@@ -31,6 +31,7 @@ int[] numbers = new int[5];  //Not an int - its an array that holds an int - and
 
 //  -  new used when creating object in c# - tell application to a lot new memory allocation
 // Assign a value to any "element" of this array
+//
 //numbers[0] = 10;
 //numbers[3] //element of an array
 
@@ -38,7 +39,7 @@ numbers[0] = 10;
 numbers[1] = 11;
 numbers[2] = 12;
 
-//Recall/Use said value stroed inside of any "element" of this array
+//Recall/Use said value stored inside of any "element" of this array
 
 Console.WriteLine(numbers[0]);
 Console.WriteLine(numbers[1]);
@@ -46,8 +47,8 @@ Console.WriteLine(numbers[2]);
 
 Console.WriteLine(numbers[4]);  // will assign 0 since it hasnt been declared
 
-//Consle.WriteLine(number[10]); - IndexOutOfRangeException - acceptable
-//Console.WriteLine(numbers[-1]); - Cannot use negative indices (in c#)
+//Console.WriteLine(number[10]); - //IndexOutOfRangeException - acceptable
+//Console.WriteLine(numbers[-1]); - //Cannot use negative indices (in c#)
 
 Console.WriteLine(numbers);  //System.Int32[]  error - 
 
@@ -70,8 +71,8 @@ Console.WriteLine(arrString);
 
 
 
-
-//string arrString = "{";
+//string
+string arrString = "{";
 foreach (int num in numbers)
 {
     arrString += "[";
@@ -82,8 +83,8 @@ Console.WriteLine(arrString);
                   
 
 
-
-//string arrString = "{";    //REMOVE Function
+//REMOVE Function
+string arrString = "{";    
 foreach (int num in numbers)
 {
     arrString += "[";
