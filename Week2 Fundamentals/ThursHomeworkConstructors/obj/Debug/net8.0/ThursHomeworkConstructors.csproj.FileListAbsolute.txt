@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\bin\Debug\net8.0\ThursHomeworkConstructors.exe
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\bin\Debug\net8.0\ThursHomeworkConstructors.deps.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\bin\Debug\net8.0\ThursHomeworkConstructors.runtimeconfig.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\bin\Debug\net8.0\ThursHomeworkConstructors.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\bin\Debug\net8.0\ThursHomeworkConstructors.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.sourcelink.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\refint\ThursHomeworkConstructors.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ThursHomeworkConstructors.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\ThursHomeworkConstructors\obj\Debug\net8.0\ref\ThursHomeworkConstructors.dll

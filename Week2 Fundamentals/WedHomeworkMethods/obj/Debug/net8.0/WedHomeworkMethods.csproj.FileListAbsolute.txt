@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\bin\Debug\net8.0\WedHomeworkMethods.exe
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\bin\Debug\net8.0\WedHomeworkMethods.deps.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\bin\Debug\net8.0\WedHomeworkMethods.runtimeconfig.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\bin\Debug\net8.0\WedHomeworkMethods.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\bin\Debug\net8.0\WedHomeworkMethods.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.sourcelink.json
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\refint\WedHomeworkMethods.dll
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.pdb
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\WedHomeworkMethods.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week2 Fundamentals\WedHomeworkMethods\obj\Debug\net8.0\ref\WedHomeworkMethods.dll
