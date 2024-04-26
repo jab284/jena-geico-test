@@ -27,9 +27,9 @@ public string GetColor()
 
 /*
 Constructors - a special type of method whose purpose is to help us create new objects of that class.
-    Along with any other iniitial set up instructions we wish to provide.
+    Along with any other initial set up instructions we wish to provide.
 
-    Symtax:
+    Syntax:
     access_modifier ClassName(potential parameters)
     {
         //what you want the constructor to do while setting up your object.

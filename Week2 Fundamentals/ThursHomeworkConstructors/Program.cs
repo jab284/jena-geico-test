@@ -6,10 +6,11 @@ using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
+    
     static void Main(string[] args)
     {
         // Main method code here
-
+        
         System.Console.WriteLine("This is my People Class and Object Assignment.");
        
         People person1 = new People();
@@ -47,6 +48,8 @@ class Program
 
         System.Console.WriteLine();
         
+
+        
         People person2 = new();
 
         person2.name = "Emily";
@@ -75,6 +78,10 @@ class Program
         System.Console.WriteLine("I have " + person2.hairColor + " hair");
         System.Console.WriteLine("My favorite activity is " + person2.favoriteActivity.ToLower() + ".");
         person2.Sing();
+
+        System.Console.WriteLine();
+
+        System.Console.WriteLine(person2);
 
         System.Console.WriteLine();
 
@@ -111,6 +118,10 @@ class Program
 
         System.Console.WriteLine();
 
+        System.Console.WriteLine(person3);
+
+        System.Console.WriteLine();
+
         People person4 = new();
 
         person4.name = "Sandy";
@@ -141,27 +152,17 @@ class Program
         System.Console.WriteLine("My favorite activity is " + person4.favoriteActivity.ToLower() + ".");
         person4.Eat();
 
+        System.Console.WriteLine();
+        System.Console.WriteLine(person4);
 
-         
+        System.Console.WriteLine();
 
-             
-
+        System.Console.WriteLine("The total age of the 4 people is " + AddAges(person1, person2, person3, person4));  // 
       
-
-        
-
-
-
-
-
-
     }
     
-    private static void OpeningGreeting()
+       public static int AddAges(People person1, People person2, People person3, People person4)
     {
-        System.Console.WriteLine("Hello everyone.  We would like to get to know you better.");
-        System.Console.WriteLine("Can you please introduce yourself?");
-        System.Console.WriteLine("What is your name?");
+        return person1.age + person2.age + person3.age + person4.age;
     }
-    
 }

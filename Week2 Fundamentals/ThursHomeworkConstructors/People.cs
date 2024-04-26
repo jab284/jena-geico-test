@@ -6,7 +6,6 @@ class People
     public string homeState;
     public int age;
     public string gender;
-    public string eyeColor;
     public string hairColor;
     public string favoriteActivity;
 
@@ -24,17 +23,33 @@ class People
     }
 
     //Full Arg Constructor
-    public People(string name, string homeState, int age, string gender, string eyeColor, string hairColor, string favoriteActivity)
-{
-    this.name = name;
-    this.homeState = homeState;
-    this.age = age;
-    this.gender = gender; 
-    this.eyeColor = eyeColor;
-    this.hairColor = hairColor;
-    this.favoriteActivity = favoriteActivity;
-    System.Console.WriteLine(this.name, this.homeState);
-}
+    public People(string name, string homeState, int age, string gender, string hairColor, string favoriteActivity)
+    {
+        this.name = name;
+        this.homeState = homeState;
+        this.age = age;
+        this.gender = gender; 
+        this.hairColor = hairColor;
+        this.favoriteActivity = favoriteActivity;
+    
+    }
+
+
+    //ToString
+    public override string ToString()
+    {
+        string str = "";
+        str += "{Name: " + name;
+        str += "; Home State: " + homeState;
+        str += "; Age: " + age;
+        str += "; Gender: " + gender;
+        str += "; Hair Color: " + hairColor;
+        str += "; Favorite Activity: " + favoriteActivity;
+        return str;
+        
+    }
+
+
 
     //Method1
 
@@ -59,11 +74,11 @@ class People
     {
         System.Console.WriteLine("La La La La");
     }
-    /*
-    public void Age();
+    
+    public static int AddAges(People person1, People person2, People person3, People person4)
     {
-        totalAge = ()
+        return person1.age + person2.age + person3.age + person4.age;
     }
-    */
+    
 
 }
