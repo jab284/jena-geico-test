@@ -1,8 +1,6 @@
 ﻿
 
-using System.ComponentModel.DataAnnotations;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
+
 
 class Program
 {
@@ -10,11 +8,11 @@ class Program
     static void Main(string[] args)
     {
         // Main method code here
-        
-        System.Console.WriteLine("This is my People Class and Object Assignment.");
-       
+
+        // System.Console.WriteLine("This is my People Class and Object Assignment.");
+
         People person1 = new People();
-    
+
         person1.name = "Cody";
         person1.homeState = "Virginia";
         person1.age = 26;
@@ -33,22 +31,17 @@ class Program
         person1.Race();
 
         System.Console.WriteLine();
-
-        System.Console.WriteLine("My name is " + person1.name + ".");
-        System.Console.WriteLine("I am from " + person1.homeState + ".");
-        System.Console.WriteLine("I am " + person1.age + " years old");
-        System.Console.WriteLine("I am a " + person1.gender + ".");
-        System.Console.WriteLine("I have " + person1.hairColor + " hair");
-        System.Console.WriteLine("My favorite activity is " + person1.favoriteActivity.ToLower() + ".");
+        FullDescription(person1);
         person1.Race();
-
-        System.Console.WriteLine();
-
+        /*
+                System.Console.WriteLine();
+                */
+        //This is my ToString
         System.Console.WriteLine(person1);
 
         System.Console.WriteLine();
-        
 
+        /*
         
         People person2 = new();
 
@@ -118,6 +111,7 @@ class Program
 
         System.Console.WriteLine();
 
+        //This is my ToString
         System.Console.WriteLine(person3);
 
         System.Console.WriteLine();
@@ -153,15 +147,27 @@ class Program
         person4.Eat();
 
         System.Console.WriteLine();
+
+        //This is my ToString
         System.Console.WriteLine(person4);
 
         System.Console.WriteLine();
 
         System.Console.WriteLine("The total age of the 4 people is " + AddAges(person1, person2, person3, person4));  // 
-      
+      */
     }
-    
-       public static int AddAges(People person1, People person2, People person3, People person4)
+
+    private static void FullDescription(People person1)
+    {
+        System.Console.WriteLine("My name is " + person1.name + ".");
+        System.Console.WriteLine("I am from " + person1.homeState + ".");
+        System.Console.WriteLine("I am " + person1.age + " years old");
+        System.Console.WriteLine("I am a " + person1.gender + ".");
+        System.Console.WriteLine("I have " + person1.hairColor + " hair");
+        System.Console.WriteLine("My favorite activity is " + person1.favoriteActivity.ToLower() + ".");
+    }
+
+    public static int AddAges(People person1, People person2, People person3, People person4)
     {
         return person1.age + person2.age + person3.age + person4.age;
     }

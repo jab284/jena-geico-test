@@ -1,9 +1,76 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using Media;
 
 class Program
 {
     static void Main(string[] args)
+    {
+        //Practice Objects
+        //PracticeProperties();
+        //PracticeScopes();
+         PracticeNamespaces();
+    }
+
+
+
+    //NameSpace
+    public static void PracticeNamespaces()
+    {
+        Movie movie1 = new("TheAvengers", 105, 10.50);
+        System.Console.WriteLine(movie1.Title);
+        System.Console.WriteLine(movie1.Rating);
+        System.Console.WriteLine(movie1.Price);
+    }
+//good up to here
+
+
+
+
+        //Practice Scopes
+        public static void PracticeScopes()
+        {
+            //Testing out the Class Scoped variable 'count' that increments by 1 with each object created
+            System.Console.WriteLine("Total Things Created: " + Thing.count);
+            Thing thing1 = new();
+            System.Console.WriteLine("Total Things Created: " + Thing.count);
+            Thing thing2 = new();
+            System.Console.WriteLine("Total Things Created: " + Thing.count);
+
+            //Showing that Object Scoped variables are independent of one another.
+            thing1.objectNum++;
+            thing2.objectNum--;
+
+            System.Console.WriteLine(thing1.objectNum);
+            System.Console.WriteLine(thing2.objectNum);
+
+            //Showing how to call Class Scoped variables/methods.
+            //Cannot do so through the Objects of tht Class.
+            System.Console.WriteLine(Thing.classNum);
+            Thing.StaticMethod();
+            System.Console.WriteLine(DateTime.Now);
+            
+            thing1.StaticMethod(25);
+        }
+
+        public static void PracticeProperties()
+        {
+            /*
+            Book book1 = new Book();
+            book1.SetTitle("Dracula");
+            */
+            Book book1 = new Book();
+            book1.Title = "Dracula";                //Technically using the underlying Setter in this Property
+            System.Console.WriteLine(book1.Title);  //Technically using the underlying Getter in this Property
+        }
+
+        
+        
+        //===================//
+
+        
+        // We put all yesterdays code here to clean it up a bit for seeing todays stuff better so can comment out at will.  Thats it
+    private static void PracticeObjects()  
     {
         // Main method code here
 
@@ -32,12 +99,12 @@ class Program
         System.Console.WriteLine(car1.color);
         System.Console.WriteLine(car1.make);
         System.Console.WriteLine(car1.model);
-       
+
         car1.Honk();
         car1.Drive(100);
         car1.Drive(50);
 
-        Car car2 = new ();
+        Car car2 = new();
 
         car2.model = "CX5";
         car2.color = "Gray";
@@ -46,12 +113,12 @@ class Program
 
         System.Console.WriteLine("Car 1 Mileage: " + car1.mileage);
         System.Console.WriteLine("Car 2 Mileage: " + car2.mileage);
-        
+
         car2.Drive(50);
         System.Console.WriteLine("===After Driving Car 2 some more===");
         System.Console.WriteLine("Car 1 Mileage: " + car1.mileage);
         System.Console.WriteLine("Car 2 Mileage: " + car2.mileage);
-        
+
         Car car3 = car2;
         System.Console.WriteLine("Car 3 Color: " + car3.color);
         System.Console.WriteLine("Car 3 Mileage: " + car3.mileage);
@@ -109,12 +176,8 @@ class Program
         //Copy 
         Car car10 = new(car6);
         //Make a class ->  Name of file should match name of class (.cs)  ex Car.cs
-
-
-
-
-
-        //Tomorrow
+    }
+          //Tomorrow
         // Properties
         //Scopes (static keyword as well)
         //Access Modifiers
@@ -123,9 +186,4 @@ class Program
 
         //Inheritance
         //Polymorphism 
-
-
-
-
-    }
 }

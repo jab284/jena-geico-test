@@ -1,0 +1,15 @@
+Name Space Notes
+
+Creating folders - 
+    *  way of organization for classes
+    *  another level of accessibility
+    *  think of as 1:1 equivalent to the folder you are working in
+    *  nameSpace - when code compiles it takes all things in same name space and creates an assembly
+        assembly - part of dll file -> physical manifest compiled version of what is in the same folder
+
+
+
+    Inside project create folder
+
+   
+
