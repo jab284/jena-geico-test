@@ -20,7 +20,7 @@ Dynamic Polymorphism - Overriding - decisions could be changed during execution 
 
 */
 //Both versions of this method can exist at the same time.
-//Because C# can identirfy which version of the Add() we want to use at any given moment
+//Because C# can identify which version of the Add() we want to use at any given moment
 
 {
     public static int Add(int num1, int num2)

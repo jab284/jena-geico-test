@@ -23,7 +23,7 @@ class Child : Parent
         System.Console.WriteLine("Playing my favorite game: " + FavoriteGame);
     }
 
-    //This is now an overridden method which changes its implementation for the 
+    //This is now an overridden method which changes its implementation for the for this Class ONLY
     public override void Work()
     {
         
