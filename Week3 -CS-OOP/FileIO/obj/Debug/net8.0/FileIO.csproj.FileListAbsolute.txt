@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\bin\Debug\net8.0\FileIO.exe
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\bin\Debug\net8.0\FileIO.deps.json
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\bin\Debug\net8.0\FileIO.runtimeconfig.json
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\bin\Debug\net8.0\FileIO.dll
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\bin\Debug\net8.0\FileIO.pdb
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.sourcelink.json
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.dll
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\refint\FileIO.dll
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.pdb
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\FileIO.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week3 -CS-OOP\FileIO\obj\Debug\net8.0\ref\FileIO.dll
