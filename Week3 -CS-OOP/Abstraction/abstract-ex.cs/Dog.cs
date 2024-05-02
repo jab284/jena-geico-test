@@ -1,7 +1,10 @@
-class Dog : Animal
+namespace Abstraction;
+
+class Dog : Animal, ICarnivore
 {
 
     public string FavoriteChewToy { get; set; }
+    public int Value {get; set; }
 
     public Dog()
     {

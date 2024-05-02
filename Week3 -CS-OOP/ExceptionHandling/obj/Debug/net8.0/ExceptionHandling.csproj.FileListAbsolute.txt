@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.exe
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.deps.json
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.runtimeconfig.json
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.dll
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.pdb
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.sourcelink.json
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.dll
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\refint\ExceptionHandling.dll
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.pdb
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week3 -CS-OOP\ExceptionHandling\obj\Debug\net8.0\ref\ExceptionHandling.dll

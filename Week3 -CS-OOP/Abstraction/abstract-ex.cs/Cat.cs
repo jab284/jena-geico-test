@@ -1,3 +1,5 @@
+namespace Abstraction;
+
 class Cat : Animal, ICarnivore
 {
     
