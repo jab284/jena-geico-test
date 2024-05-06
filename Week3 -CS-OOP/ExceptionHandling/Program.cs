@@ -11,7 +11,7 @@ class Program
 
         //HandleStackTraceMethod();
 
-        //HandleTwoTryCatchMethod();
+        HandleTwoTryCatchMethod();
         try
         {
             ThrowingExceptions();
@@ -70,14 +70,14 @@ class Program
         }
         catch (DivideByZeroException e)
         {
-                System.Console.WriteLine();
+                System.Console.WriteLine(e.Message);
                 return 0;
         }
         finally
         {
             System.Console.WriteLine("Printing from the Finally Block");
         }
-        System.Console.WriteLine("Printing from the End of the Method");
+        //System.Console.WriteLine("Printing from the End of the Method");
     }
 
 

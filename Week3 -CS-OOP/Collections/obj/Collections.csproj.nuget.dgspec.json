@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Trial\\Trial.csproj": {}
+    "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Collections\\Collections.csproj": {}
   },
   "projects": {
-    "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Trial\\Trial.csproj": {
+    "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Collections\\Collections.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Trial\\Trial.csproj",
-        "projectName": "Trial",
-        "projectPath": "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Trial\\Trial.csproj",
+        "projectUniqueName": "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Collections\\Collections.csproj",
+        "projectName": "Collections",
+        "projectPath": "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Collections\\Collections.csproj",
         "packagesPath": "C:\\dev\\nuget\\packages",
-        "outputPath": "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Trial\\obj\\",
+        "outputPath": "C:\\Revature\\jena-geico-test\\Week3 -CS-OOP\\Collections\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\U1C073\\AppData\\Roaming\\NuGet\\NuGet.Config"
