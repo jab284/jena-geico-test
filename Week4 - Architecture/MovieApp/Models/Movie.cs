@@ -26,4 +26,14 @@ class Movie
         ReturnDate = returnDate;
     }
 
+    public override string ToString()
+    {
+        return "{id:" + Id 
+        + ",title:" + Title 
+        + ",price:" + Price 
+        + ",available:" + Available 
+        + ",returnDate:" + ReturnDate 
+        + "}";
+    }
+
 }

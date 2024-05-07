@@ -1,0 +1,15 @@
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\bin\Debug\net8.0\MovieApp.exe
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\bin\Debug\net8.0\MovieApp.deps.json
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\bin\Debug\net8.0\MovieApp.runtimeconfig.json
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\bin\Debug\net8.0\MovieApp.dll
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\bin\Debug\net8.0\MovieApp.pdb
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.AssemblyInfoInputs.cache
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.AssemblyInfo.cs
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.csproj.CoreCompileInputs.cache
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.sourcelink.json
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.dll
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\refint\MovieApp.dll
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.pdb
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\MovieApp.genruntimeconfig.cache
+C:\Revature\jena-geico-test\Week4 - Architecture\MovieApp\obj\Debug\net8.0\ref\MovieApp.dll
