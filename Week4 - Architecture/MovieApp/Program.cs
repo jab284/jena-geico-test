@@ -7,17 +7,61 @@ class Program
         // Main method code here
         MovieRepo mr = new();
 
-        //Lets test retrieving a movie that exists
-        //We have to make a little bit of assumption
-        //The user has to know what kind of IDs might work
-        System.Console.WriteLine("Please enter a movie ID: ");
-        int input = int.Parse(Console.ReadLine() ?? "0");
-        Movie retrievedMovie = mr.GetMovie(input);
-        //Easiest way to showcase what Movie retrieved is to just print it out
-        System.Console.WriteLine("Retrieved Movie: " + retrievedMovie);
+        RetrievingMovie(mr);  //Tested the MovieRepo - GetMovie()
 
 
 
         //Lets test out adding a new movie into our collection
+        AddingNewMovie(mr);
+
+    }
+
+
+    private static void AddingNewMovie(MovieRepo mr)
+    {
+        System.Console.WriteLine("Let's Add in a new Movie");
+        System.Console.WriteLine("Please provide a Movie Title: ");
+        string? title = Console.ReadLine();
+
+        System.Console.WriteLine("Please enter a price: ");
+        double price = double.Parse(Console.ReadLine() ?? "0");
+
+        //Let's assume that the Available will default to true
+        //and by extension the returnDate will be 0.
+
+        //Also not going to ask them for an ID - becuase our MovieRepo - AddMovie()
+        //already gives it the next, correct value fir ID.
+
+        //Now we need to collect all of this information into a new Movie Object
+        Movie movie = new(0, title, price, true, 0);  //temp device to hold and then fed into movie below
+
+        //Now that the information is collected into Movie Object
+        //let's use the MovieRepo to ADD it to our data storage.
+        movie = mr.AddMovie(movie);  //fed in from above variable
+        //I am reusing the movie variable to store the updated values, if any, 
+        //from the AddMovie() process.
+
+        //For the sake of Clarity to the User of the App, let's inform them
+        //of the newly added movie.
+        System.Console.WriteLine("Newly Added Movie: " + movie);
+
+    }
+
+    private static void RetrievingMovie(MovieRepo mr)
+    {
+        Movie? retrievedMovie = null;
+        while (retrievedMovie == null)
+        {
+
+            //Lets test retrieving a movie that exists
+            //We have to make a little bit of assumption
+            //The user has to know what kind of IDs might work
+            System.Console.WriteLine("Please enter a movie ID: ");
+            int input = int.Parse(Console.ReadLine() ?? "0");
+            retrievedMovie = mr.GetMovie(input);
+
+        }
+        //Easiest way to showcase what Movie retrieved is to just print it out
+        System.Console.WriteLine("Retrieved Movie: " + retrievedMovie);
     }
 }

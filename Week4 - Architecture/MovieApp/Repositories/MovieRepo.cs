@@ -26,11 +26,17 @@ class MovieRepo
         return m;
     }
 
-    public Movie GetMovie(int id)
+    public Movie? GetMovie(int id)
     {
+        if (movieStorage.movies.ContainsKey(id))
+        {
         Movie selectedMovie = movieStorage.movies[id];
         return selectedMovie;
-
+        }
+        else
+        {
+            return null;
+        }
     }
 
 }
