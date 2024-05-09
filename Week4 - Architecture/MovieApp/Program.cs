@@ -14,8 +14,38 @@ class Program
         //Lets test out adding a new movie into our collection
         AddingNewMovie(mr);
 
+        //Lets test updating a movie in our collection
+        UpdatingMovie(mr);
+
+        //Lets test deleting a movie
+        DeletingMovie(mr);
+
+
     }
 
+
+    public static void DeletingMovie(MovieRepo mr)
+    {
+       //Pick a Movie -> Ask for and ID of a Movie -> Retrieve the Movie with that ID
+        Movie movie = PromptUserForMovie(mr);
+        //Remove that movie from storage
+        System.Console.WriteLine("Delete Movie: " + mr.DeleteMovie(movie));
+    }
+
+    private static void UpdatingMovie(MovieRepo mr)
+    {
+       // Pick a movie -> Ask for an ID of a Movie ->Retrieve the movie with that ID
+        Movie movie = PromptUserForMovie(mr);
+       //Let the user update some fields
+       System.Console.WriteLine("Please provide a new Title: ");
+       movie.Title = Console.ReadLine() ?? "";
+       // we could add more steps to update more values
+
+       // Save those changed values to our storage
+       //mr.UpdateMovie(movie);
+       System.Console.WriteLine("Updated Movie: " + mr.UpdateMovie(movie));
+      
+    }
 
     private static void AddingNewMovie(MovieRepo mr)
     {
@@ -49,19 +79,35 @@ class Program
 
     private static void RetrievingMovie(MovieRepo mr)
     {
-        Movie? retrievedMovie = null;
-        while (retrievedMovie == null)
-        {
+        //Movie? retrievedMovie = null;
+        //while (retrievedMovie == null)
+        
 
             //Lets test retrieving a movie that exists
             //We have to make a little bit of assumption
             //The user has to know what kind of IDs might work
+            
+            /*System.Console.WriteLine("Please enter a movie ID: ");
+            int input = int.Parse(Console.ReadLine() ?? "0");
+            retrievedMovie = mr.GetMovie(input);  */
+            Movie retrievedMovie = PromptUserForMovie(mr);
+        
+        //Easiest way to showcase what Movie retrieved is to just print it out
+        System.Console.WriteLine("Retrieved Movie: " + retrievedMovie);
+    }
+
+    private static Movie PromptUserForMovie(MovieRepo mr)
+    {
+        //Now we have input validation
+        Movie? retrievedMovie = null;
+        while (retrievedMovie == null)
+        {
+
             System.Console.WriteLine("Please enter a movie ID: ");
             int input = int.Parse(Console.ReadLine() ?? "0");
             retrievedMovie = mr.GetMovie(input);
-
         }
-        //Easiest way to showcase what Movie retrieved is to just print it out
-        System.Console.WriteLine("Retrieved Movie: " + retrievedMovie);
+
+        return retrievedMovie;
     }
 }

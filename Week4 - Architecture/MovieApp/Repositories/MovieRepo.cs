@@ -39,4 +39,48 @@ class MovieRepo
         }
     }
 
+
+    public Movie ? UpdateMovie(Movie updatedMovie)
+    {
+        //Assuming that the ID is consistent with an ID that exists
+        //then we just have to update the calue for said ID(key) within the Dictionary
+        try
+        {
+        movieStorage.movies[updatedMovie.Id] = updatedMovie;
+
+        //I choose to send the updated Movie back as a "response-feedback" system.
+        //Here is me telling you I have updated storage with this movie I sent back to you
+        return updatedMovie;
+        }
+        catch(Exception)
+        {
+            System.Console.WriteLine("Invalid Movie ID - Please Try Again");
+            return null;
+        }
+    }
+
+    public Movie ? DeleteMovie(Movie m)
+    {
+       
+       
+        //If we have ID -> Remove it from storage
+        bool didRemove = movieStorage.movies.Remove(m.Id);
+
+            if(didRemove)
+            {
+                // How do I get this to return the movie that was just removed?
+                return m;
+            }
+            else
+            {
+                 System.Console.WriteLine("Invalid Movie ID - Please Try Again");
+                return null;
+            }
+    }
+        
+
+        
+    
+
+
 }
