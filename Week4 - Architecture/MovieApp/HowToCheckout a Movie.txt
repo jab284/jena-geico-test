@@ -1,0 +1,10 @@
+Service Level
+
+
+Checkout a Movie?
+
+- need a user account -> signed in
+- Need to have collected what they are checking out
+- We need to check if the movie is currently Available to be checked out.
+- Make changes to the Movie to represent that it is checked out.
+- Finalize the checkout.
