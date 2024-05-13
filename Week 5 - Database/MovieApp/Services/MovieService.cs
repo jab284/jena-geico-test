@@ -3,7 +3,7 @@ class MovieService
     /*
         Services:
             - Checkout Movie
-            - Check in Movie
+            - Checkin Movie
             - Get (Your) Checked out Movies
             - Get All Available Movies
 
@@ -17,14 +17,14 @@ class MovieService
     MovieRepo mr = new();
 
     // m is the movie we want to attempt to check out.
-    public Movie Checkout(Movie m)
+    public Movie? Checkout(Movie m)
     {
         //Lets first check to see if the Movie is Available 
         //- OR lets return null if its not available - get that out of the way.
         if (!m.Available)
         {
             System.Console.WriteLine("Movie Currently Unavailable");
-            return null; //Movie does not get checked out
+            return null; //Movie doesnt get checked out
         }
 
         //Happy Path Execution -> Movie is good to go - can be checked out.
@@ -40,6 +40,25 @@ class MovieService
         mr.UpdateMovie(m);
 
         return m; //I am choosing to send back the checked out movie. Your choice.
+    }
+
+    public Movie? Checkin(Movie m)
+    {
+        //Now lets do the same, but opposite tested logic.
+        if (m.Available || m.ReturnDate == 0)
+        {
+            System.Console.WriteLine("Movie Currently not Checked Out");
+            return null; //Movie doesnt get checked in
+        }
+
+        //Update the fields
+        m.Available = true;
+        m.ReturnDate = 0;
+
+        //Make these changes permanent in the data storage
+        mr.UpdateMovie(m);
+
+        return m;
     }
 
     public List<Movie> GetAvailableMovies()
@@ -62,4 +81,10 @@ class MovieService
         return availableMovies;
     }
 
+
+    //Ew, a Trivial Service!
+    public Movie? GetMovie(int id)
+    {
+        return mr.GetMovie(id);
+    }
 }
