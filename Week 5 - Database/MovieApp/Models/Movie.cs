@@ -6,18 +6,25 @@ class Movie
     public bool Available { get; set; }
     public long ReturnDate { get; set; }
 
+
+    //User who checks out the movie:
+    public User? Renter { get; set; }
+
     public Movie()
     {
         Title = "";
+        Renter = new();
     }
 
-    public Movie(int id, string title, double price, bool available, long returnDate)
+    public Movie(int id, string title, double price, bool available, long returnDate, User? renter)
     {
         Id = id;
         Title = title;
         Price = price;
         Available = available;
         ReturnDate = returnDate;
+        Renter = renter;
+
     }
 
     public override string ToString()
@@ -26,7 +33,8 @@ class Movie
         + ",title:'" + Title
         + "',price:" + Price
         + ",available:" + Available
-        + ",returnDate:" + ReturnDate + "}";
+        + ",returnDate:" + ReturnDate 
+        + ", renter:" + Renter?.ToString() + "}";
     }
 
 }

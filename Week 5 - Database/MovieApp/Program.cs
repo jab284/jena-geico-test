@@ -2,6 +2,8 @@
 {
     static MovieService ms = new();
 
+    static User? currentUser = null;
+
     static void Main(string[] args)
     {
         //Going to start off with the call to Main Menu still
