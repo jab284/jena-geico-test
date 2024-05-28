@@ -8,10 +8,8 @@ class Program
     static void Main(string[] args)
     {
         //Strings with an @ in front will provide you additional flexibility when creating strings.
-        string path = @"C:\Users\RyanSchlientz\Documents\TrainingBatches\2404-geico-dotnet\Week6-Frameworks\movie-app-db.txt";
+        string path = @"C:\Revature\DBConnections\MovieAppdbconnection.txt";
         string connectionString = File.ReadAllText(path);
-
-        System.Console.WriteLine(connectionString); //definitely remove later...
 
         UserRepo ur = new(connectionString);
         us = new(ur);
@@ -19,9 +17,18 @@ class Program
         MovieRepo mr = new(); // <-- we'll need to add the connection string in the near future
         ms = new(mr);
 
+        //Lets just quickly test the Repo all by itself - and then if it works
+        //we can assume nothing else changed -> therefore it should integrate cleanly into the app.
 
-        //Going to start off with the call to Main Menu still
-        // MainMenu();
+        //Test Get 1, Update and Delete.
+        User u = ur.GetUser(2) ?? new();
+        System.Console.WriteLine("Get User: " + u);
+        u.Password += "000";
+        System.Console.WriteLine("Updated User: " + ur.UpdateUser(u));
+        System.Console.WriteLine("Deleted User: " + ur.DeleteUser(u));
+
+
+        // InitMenu();
     }
 
     private static void InitMenu()

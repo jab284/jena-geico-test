@@ -20,7 +20,7 @@ class UserService
 
         //let's not let them register if the username is already taken! :o
         //Get all users
-        List<User> allUsers = ur.GetAllUsers();
+        List<User> allUsers = ur.GetAllUsers() ?? [];
         //Check if our new username matches any of the usernames on all those users.
         foreach (User user in allUsers)
         {
@@ -39,7 +39,7 @@ class UserService
     public User? Login(string username, string password)
     {
         //Get all users
-        List<User> allUsers = ur.GetAllUsers();
+        List<User> allUsers = ur.GetAllUsers() ?? [];
 
         //check each one to see if we find a match.
         foreach (User user in allUsers)
@@ -53,7 +53,7 @@ class UserService
         }
 
         //If we make it this far - we didnt find a match! Oh no!
-        System.Console.WriteLine("Invalid Usernamd / Password combo! Please Try Again!");
+        System.Console.WriteLine("Invalid Username / Password combo! Please Try Again!");
         return null; //reject the login
     }
 }

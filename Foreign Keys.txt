@@ -1,0 +1,34 @@
+Foreign Keys
+
+User
+	Id
+	Username
+	Password
+	Role
+
+
+Movie Class
+	Id
+	Title
+	Price		- double
+	Available
+	ReturnDate
+	Renter (User)
+	RenterId (int)
+
+Movie Table
+	Id
+	Title
+	Price		- decimal
+	Available
+	ReturnDate
+	UserId (int)
+
+
+(double)reader["Price"] - wont work
+
+(double)((decimal)reader["Price"]) - works
+
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
